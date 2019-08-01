@@ -1,7 +1,9 @@
-Role Name
+DB
 =========
 
-Role for install mongodb. Simple role used by otus
+[![Build Status](https://travis-ci.com/SJay3/ansible-otus-db.svg?branch=master)](https://travis-ci.com/SJay3/ansible-otus-db)
+
+Role for install mongodb. Simple role used by otus.
 
 Requirements
 ------------
