@@ -1,5 +1,5 @@
 ---
- #config mongo
+# config mongo
 - name: Change mongo config file
   template:
     src: mongod.conf.j2
