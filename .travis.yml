@@ -2,11 +2,9 @@ language: python
 python:
 - '3.6'
 install:
-- pip install ansible>=2.4.0 molecule apache-libcloud
+- pip install ansible>=2.4.0 molecule apache-libcloud paramiko
 script:
-- molecule --debug test --scenario-name gce_test
-after_script:
-- molecule --debug destroy --scenario-name gce_test
+- molecule test --scenario-name gce_test
 env:
   matrix:
   - GCE_CREDENTIALS_FILE="$(pwd)/travis_gcp_key.json"
