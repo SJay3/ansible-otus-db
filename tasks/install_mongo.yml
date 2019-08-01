@@ -1,5 +1,5 @@
 ---
-#install mongod
+ #install mongod
 - name: Add apt key
   apt_key:
     # keyserver: hkp://keyserver.ubuntu.com:80
