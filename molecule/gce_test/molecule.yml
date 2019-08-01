@@ -12,7 +12,7 @@ platforms:
   - name: instance
     zone: us-west1-a
     machine_type: f1-micro
-    image_family: ubuntu-1604-lts
+    image: ubuntu-1604-xenial
 provisioner:
   name: ansible
   lint:
