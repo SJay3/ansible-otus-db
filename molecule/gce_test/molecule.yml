@@ -9,7 +9,7 @@ platforms:
   - name: instance
     zone: us-west1-a
     machine_type: f1-micro
-    image: debian-8
+    image: ubuntu-1604-tlss
 provisioner:
   name: ansible
   lint:
