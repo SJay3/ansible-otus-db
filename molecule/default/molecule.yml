@@ -7,9 +7,9 @@ driver:
     name: virtualbox
 lint:
   name: yamllint
-    options:
+  options:
     config-data:
-      ignore: .travis.yml
+      ignore: ".travis.yml"
 platforms:
   - name: molecule-instance
     box: ubuntu/xenial64
