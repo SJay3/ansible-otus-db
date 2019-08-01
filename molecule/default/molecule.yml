@@ -2,14 +2,15 @@
 dependency:
   name: galaxy
 driver:
-  name: vagrant
-  provider:
-    name: virtualbox
+  # name: vagrant
+  # provider:
+  #   name: virtualbox
+  name: gce
 lint:
   name: yamllint
 platforms:
-  - name: instance
-    box: ubuntu/xenial64
+  - name: molecule-instance
+    # box: ubuntu/xenial64
 provisioner:
   name: ansible
   lint:
